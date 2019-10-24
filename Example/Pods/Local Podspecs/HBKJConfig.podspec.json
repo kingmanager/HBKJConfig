@@ -1,0 +1,22 @@
+{
+  "name": "HBKJConfig",
+  "version": "0.1.0",
+  "summary": "自己经常的配置文件。包含16位进制颜色值等等.",
+  "homepage": "https://github.com/kingmanager/HBKJConfig",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kingmanager": "530560030@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/kingmanager/HBKJConfig.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HBKJConfig/Classes/**/*",
+  "frameworks": "UIKit"
+}

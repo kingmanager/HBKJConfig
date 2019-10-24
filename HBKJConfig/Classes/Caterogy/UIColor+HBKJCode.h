@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (HBKJCode)
 
-#pragma mark ===根据16位进制获取颜色值
+#pragma mark ===根据16位进制获取颜色值(例如:0x666666)
 +(UIColor *)colorFromCode:(int)hexCode;
 
 +(UIColor *)colorFromCode:(int)hexCode Alpha:(float)alpha;

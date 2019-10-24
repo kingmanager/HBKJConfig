@@ -1,0 +1,16 @@
+PODS:
+  - HBKJConfig (0.1.0)
+
+DEPENDENCIES:
+  - HBKJConfig (from `../`)
+
+EXTERNAL SOURCES:
+  HBKJConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HBKJConfig: 18667fd4f31fb5b62162ce6b5b3dd5c8247d163a
+
+PODFILE CHECKSUM: 7b619efd61b62fc24b829764a59c017041ab415b
+
+COCOAPODS: 1.8.4

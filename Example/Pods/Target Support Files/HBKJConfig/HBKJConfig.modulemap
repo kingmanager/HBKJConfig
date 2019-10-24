@@ -1,0 +1,6 @@
+framework module HBKJConfig {
+  umbrella header "HBKJConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

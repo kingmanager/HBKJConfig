@@ -10,12 +10,13 @@
 #endif
 #endif
 
-#import "NSString+HBKJChar.h"
+#import "NSString+HBKJExten.h"
 #import "UIColor+HBKJCode.h"
 #import "UIViewController+HBKJAlert.h"
 #import "DeviceInfo.h"
-#import "HBKJTools.h"
 #import "HBKJDate.h"
+#import "HBKJSearchbar.h"
+#import "HBKJTextView.h"
 
 FOUNDATION_EXPORT double HBKJConfigVersionNumber;
 FOUNDATION_EXPORT const unsigned char HBKJConfigVersionString[];

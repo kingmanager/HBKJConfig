@@ -8,7 +8,7 @@
 
 #import "KViewController.h"
 
-#import <HBKJTools.h>
+#import <UIColor+HBKJCode.h>
 
 @interface KViewController ()
 
@@ -16,12 +16,9 @@
 
 @implementation KViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor=[UIColor colorFromCode:0x666666];
-    
+//    self.view.backgroundColor=[UIColor colorFromCode:0xD90000];
 }
 
 - (void)didReceiveMemoryWarning

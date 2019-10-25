@@ -9,7 +9,7 @@
 
 @implementation UIColor (HBKJCode)
 
-#pragma mark ===根据16位进制获取颜色值(例如:0x666666)
+#pragma mark ===根据16位进制获取颜色值(例如:0xD90000)
 +(UIColor *)colorFromCode:(int)hexCode{
     return [self colorFromCode:hexCode Alpha:1.0];
 }

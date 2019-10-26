@@ -11,6 +11,7 @@
 #import <UIColor+HBKJCode.h>
 #import <HBKJSearchbar.h>
 #import <HBKJTextView.h>
+#import <HBKJDate.h>
 
 @interface KViewController ()
 
@@ -20,8 +21,18 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-//    self.view.backgroundColor=[UIColor colorFromCode:0xD90000];
-    
+        
+}
+
+- (void)didReceiveMemoryWarning{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+-(void)testColorCode{
+    self.view.backgroundColor=[UIColor colorFromCode:0xD90000];
+}
+
+-(void)testViews{
     HBKJSearchbar *mySearchBar=[[HBKJSearchbar alloc] initWithPlaceholder:@"请输入关键字"];
     mySearchBar.frame=CGRectMake(50, 100, self.view.bounds.size.width-100, 50);
     [self.view addSubview:mySearchBar];
@@ -31,13 +42,7 @@
     myTextView.placeholder=@"请输入内容...";
     myTextView.backgroundColor=[UIColor orangeColor];
     [self.view addSubview:myTextView];
-    
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

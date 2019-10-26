@@ -117,39 +117,23 @@
     return outStr;
 }
 
-//6.一(几)个月前的日期
--(NSString *)stringFrontMonthDate:(NSInteger)month{
+//6.一(几)个年(月，天)前(后)的日期:前- 后+
+-(NSString *)stringDistanceTodayByYear:(NSInteger)year Month:(NSInteger)month Day:(NSInteger)day{
     NSDateFormatter *dateFormatter=[[NSDateFormatter alloc]init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
        
     NSCalendar *calendar=[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSDateComponents *dateComps=[[NSDateComponents alloc] init];
-    [dateComps setYear:0];
-    [dateComps setMonth:-month];
-    [dateComps setDay:0];
+    [dateComps setYear:year];
+    [dateComps setMonth:month];
+    [dateComps setDay:day];
        
     NSDate *frontDate=[calendar dateByAddingComponents:dateComps toDate:[NSDate date] options:0];
     NSString *outStr=[dateFormatter stringFromDate:frontDate];
     return outStr;
 }
 
-//7.一(几)个月后的日期
--(NSString *)stringBackMonthDate:(NSInteger)month{
-    NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"yyyy-MM-dd"];
-        
-    NSCalendar *calendar=[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDateComponents *dateComps=[[NSDateComponents alloc] init];
-    [dateComps setYear:0];
-    [dateComps setMonth:+month];
-    [dateComps setDay:0];
-        
-    NSDate *backDate=[calendar dateByAddingComponents:dateComps toDate:[NSDate date] options:0];
-    NSString *outStr=[dateFormatter stringFromDate:backDate];
-    return outStr;
-}
-
-//8.判断日期是否为当天
+//7.判断日期是否为当天
 -(BOOL)judgeIsTodayWithDate:(NSDate *)date{
     NSCalendar *calendar=[NSCalendar currentCalendar];
     int unit=NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear;
@@ -158,7 +142,7 @@
     return (dateComps.year==todayComps.year) && (dateComps.month==todayComps.month) && (dateComps.day==todayComps.day);
 }
 
-//获取时间差(单位是秒)
+//8.获取时间差(单位是秒)
 -(NSString *)getDistanceSecondsFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType{
     NSDateFormatter *dateformatter=[[NSDateFormatter alloc] init];
     [dateformatter setDateFormat:[self dateFormatterBy:datePickerType]];
@@ -166,10 +150,11 @@
     NSDate *backDate=[dateformatter dateFromString:backTime];
     
     NSTimeInterval values=[backDate timeIntervalSinceDate:frontDate];
-    int second=(int)values % 60;            //秒
-    //int minute=(int)values / 60%60;         //分钟
-    //int house=(int)values / (24*3600)%3600; //小时
-    //int day=(int)values / (24*3600);        //天
+    int second=(int)values;         //秒
+    //int minute=(int)values/60;      //分钟
+    //int house=(int)values/(3600);   //小时
+    //int day=(int)values/(24*3600);  //天
+
     return [NSString stringWithFormat:@"%d",second];
 }
 
@@ -184,7 +169,7 @@
     if (result==NSOrderedDescending) {
     //NSLog(@"frontTime  is in the future");
         return 1;
-    }else if (result == NSOrderedAscending){
+    }else if (result==NSOrderedAscending){
     //NSLog(@"frontTime is in the past");
         return 2;
     }

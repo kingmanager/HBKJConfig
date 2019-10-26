@@ -39,19 +39,16 @@ typedef enum{
 //5.获取月末
 -(NSString *)getEndOfMonth;
 
-//6.一(几)个月前的日期
--(NSString *)stringFrontMonthDate:(NSInteger)month;
+//6.一(几)个年(月，天)前(后)的日期:前- 后+
+-(NSString *)stringDistanceTodayByYear:(NSInteger)year Month:(NSInteger)month Day:(NSInteger)day;
 
-//7.一(几)个月后的日期
--(NSString *)stringBackMonthDate:(NSInteger)month;
-
-//8.判断日期是否为当天
+//7.判断日期是否为当天
 -(BOOL)judgeIsTodayWithDate:(NSDate *)date;
 
-//9.获取时间差
+//8.获取时间差
 -(NSString *)getDistanceSecondsFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType;
 
-//10.判断时间大小 0:相等 1:frontTime>backTime 2:frontTime<backTime
+//9.判断时间大小 0:相等 1:frontTime>backTime 2:frontTime<backTime
 -(NSInteger)compareFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType;
 
 @end

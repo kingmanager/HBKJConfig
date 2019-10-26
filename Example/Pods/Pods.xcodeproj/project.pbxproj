@@ -149,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				23A24AE745A5D2C974A69B8E37A21315 /* Caterogy */,
-				41B966F9B3F63987A4C3BD12754097CA /* Config */,
 				5A9AC7439A8127D6A7EEDBEC334680F8 /* Object */,
 				C3F5FD439AEDB0FCDA205637EEE7BF4E /* Pod */,
 				2EA6484813419526CA27C4B821E9507F /* Support Files */,
@@ -187,21 +186,13 @@
 			path = "Example/Pods/Target Support Files/HBKJConfig";
 			sourceTree = "<group>";
 		};
-		41B966F9B3F63987A4C3BD12754097CA /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				B7A3103227CEF51F13BB0E8357578CF9 /* DeviceInfo.h */,
-				EDEBDECA795B1EAE8CD96D1138E3B253 /* DeviceInfo.m */,
-			);
-			name = Config;
-			path = HBKJConfig/Classes/Config;
-			sourceTree = "<group>";
-		};
 		5A9AC7439A8127D6A7EEDBEC334680F8 /* Object */ = {
 			isa = PBXGroup;
 			children = (
 				CC46E8FFC67BC7EFA05798A633012D80 /* HBKJDate.h */,
 				AC5A4BC0557663B6FC54038FF16A111A /* HBKJDate.m */,
+				B7A3103227CEF51F13BB0E8357578CF9 /* DeviceInfo.h */,
+				EDEBDECA795B1EAE8CD96D1138E3B253 /* DeviceInfo.m */,
 			);
 			name = Object;
 			path = HBKJConfig/Classes/Object;

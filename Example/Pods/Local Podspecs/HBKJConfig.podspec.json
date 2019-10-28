@@ -1,6 +1,6 @@
 {
   "name": "HBKJConfig",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "自己平时开发使用的配置文件.",
   "homepage": "https://github.com/kingmanager/HBKJConfig",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/kingmanager/HBKJConfig.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"

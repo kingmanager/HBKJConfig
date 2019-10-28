@@ -134,7 +134,7 @@
 }
 
 //7.判断日期是否为当天
--(BOOL)judgeIsTodayWithDate:(NSDate *)date{
+-(BOOL)judgeIsTodayByDate:(NSDate *)date{
     NSCalendar *calendar=[NSCalendar currentCalendar];
     int unit=NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear;
     NSDateComponents *todayComps=[calendar components:unit fromDate:[NSDate date]];
@@ -142,7 +142,17 @@
     return (dateComps.year==todayComps.year) && (dateComps.month==todayComps.month) && (dateComps.day==todayComps.day);
 }
 
-//8.获取时间差(单位是秒)
+//8:根据日期获取星期
+-(NSString *)judgeWeekDayByDate:(NSDate *)date{
+    NSArray *weekDays=[NSArray arrayWithObjects: [NSNull null], @"星期日", @"星期一", @"星期二", @"星期三", @"星期四", @"星期五", @"星期六", nil];
+    NSCalendar *calendar=[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    [calendar setTimeZone:[NSTimeZone timeZoneWithName:@"Asia/Shanghai"]];
+    NSCalendarUnit calendarUnit=NSCalendarUnitWeekday;
+    NSDateComponents *theComponents=[calendar components:calendarUnit fromDate:date];
+    return [weekDays objectAtIndex:theComponents.weekday];
+}
+
+//9.获取时间差(单位是秒)
 -(NSString *)getDistanceSecondsFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType{
     NSDateFormatter *dateformatter=[[NSDateFormatter alloc] init];
     [dateformatter setDateFormat:[self dateFormatterBy:datePickerType]];
@@ -158,7 +168,7 @@
     return [NSString stringWithFormat:@"%d",second];
 }
 
-//9.判断时间大小 0:相等 1:frontTime>backTime 2:frontTime<backTime
+//10.判断时间大小 0:相等 1:frontTime>backTime 2:frontTime<backTime
 -(NSInteger)compareFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType{
     NSDateFormatter *dateFormatter=[[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:[self dateFormatterBy:datePickerType]];

@@ -10,26 +10,26 @@
 		11FAFAD4F39E48FCE0D82148D84AF146 /* Pods-HBKJConfig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704A350B2CFCFCBA3BD06EAA32D1727 /* Pods-HBKJConfig_Example-dummy.m */; };
 		17796EAC96FDA954119D4F5A9A1913EF /* Pods-HBKJConfig_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC21906B8B177BB9C352BB9D84A151D /* Pods-HBKJConfig_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B676E3F7A338276309F1E4A6C8AA0F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		393EEEE8C049FAB96C158C8D6EA35BE2 /* HBKJConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3FF78D9BF63CB4EB4EC149E0283FC0 /* HBKJConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39E45843891B36A7D3240C411FDA5CEF /* HBKJTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3667D9A3C7B3FAFD66A5A53D44C67253 /* HBKJTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		393EEEE8C049FAB96C158C8D6EA35BE2 /* HBKJConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79978D2F7D48D4E65C2F0C92EA198868 /* HBKJConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E45843891B36A7D3240C411FDA5CEF /* HBKJTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B2FF733E13099708FFA5E1ABFD7ADA /* HBKJTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41E0BC75D7044A104BAB602C97CD0E2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		54FD69FA8D9512BFECF192EE1A132CC7 /* UIColor+HBKJCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C15A9A704E0F52EEE937C1F6E060313 /* UIColor+HBKJCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B3EC6A0DF5A830683C9807B15121350 /* HBKJSearchbar.h in Headers */ = {isa = PBXBuildFile; fileRef = D97764838ABC2C0F7B868BD15936B6E2 /* HBKJSearchbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DA3017FC2A45887112DCFB6B7943AA0 /* HBKJDate.h in Headers */ = {isa = PBXBuildFile; fileRef = CC46E8FFC67BC7EFA05798A633012D80 /* HBKJDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		603488E22F6A940E0AA272F824465E67 /* HBKJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A436318E72F37802BC185E7B2B0C9CE /* HBKJConfig-dummy.m */; };
-		878A56C288ED9E6412B82103864A3559 /* HBKJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD18743DD4C47218BA6F953FA5524CF /* HBKJTextView.m */; };
+		54FD69FA8D9512BFECF192EE1A132CC7 /* UIColor+HBKJCode.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B304F953C61A3A4E693A29CAE1DFAE /* UIColor+HBKJCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3EC6A0DF5A830683C9807B15121350 /* HBKJSearchbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 99405CCF94AECEF732ECBA2DA07CB543 /* HBKJSearchbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DA3017FC2A45887112DCFB6B7943AA0 /* HBKJDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7447DE3C75C432BACFEEE656B9BF64 /* HBKJDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		603488E22F6A940E0AA272F824465E67 /* HBKJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4C9712088EC4BD4BB239143160FBF2 /* HBKJConfig-dummy.m */; };
+		878A56C288ED9E6412B82103864A3559 /* HBKJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A63E2BC5BAA2C95D19ED452D338DB04F /* HBKJTextView.m */; };
 		934D05D776E45EE1EB2E42479BBBB613 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		B8CA7F94208081F54D9FD5915C2390DF /* UIViewController+HBKJAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5D18A7CC94B62069F21150485B9BE3 /* UIViewController+HBKJAlert.m */; };
+		B8CA7F94208081F54D9FD5915C2390DF /* UIViewController+HBKJAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EE07D3C021319CE0A1DF0C2992C2E /* UIViewController+HBKJAlert.m */; };
 		BB17645F74EB63B572005B928EB22346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		BE94E983FA194D9104E2B3780C78B709 /* UIViewController+HBKJAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 544BFD022771A93ABAE80919F09F8C05 /* UIViewController+HBKJAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD8039A41D35D7695D79B0374AC380B7 /* DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A3103227CEF51F13BB0E8357578CF9 /* DeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEDF2266683E89D7097F8E562138CF60 /* HBKJSearchbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E0F891B1DA2220DD4EE214C957AF1 /* HBKJSearchbar.m */; };
-		D64FDDE7E7ACF054D47EF5A44776735B /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBDECA795B1EAE8CD96D1138E3B253 /* DeviceInfo.m */; };
+		BE94E983FA194D9104E2B3780C78B709 /* UIViewController+HBKJAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 984638F85F4E84CB6AC639423698E2D2 /* UIViewController+HBKJAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8039A41D35D7695D79B0374AC380B7 /* DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7862449BD86D00DA1879B96583314A5 /* DeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEDF2266683E89D7097F8E562138CF60 /* HBKJSearchbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB437FA3F8D578D2C48EB86D1FA529F /* HBKJSearchbar.m */; };
+		D64FDDE7E7ACF054D47EF5A44776735B /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C77E9FFC2103EF5C5CFF27483208D0C4 /* DeviceInfo.m */; };
 		DCEE80C85A9BF1C0914660E995D8A90A /* Pods-HBKJConfig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A556F4E553E69EC8059CACB397256651 /* Pods-HBKJConfig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E86FA495BE0587321C2D64D9660438F3 /* HBKJDate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5A4BC0557663B6FC54038FF16A111A /* HBKJDate.m */; };
-		EA79A08D047924AF4C46874E530C0168 /* NSString+HBKJExten.h in Headers */ = {isa = PBXBuildFile; fileRef = 4291C5F5D4F783B446CAC5C731626613 /* NSString+HBKJExten.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F925412A2ADAAD7141D459A2890D2CFE /* NSString+HBKJExten.m in Sources */ = {isa = PBXBuildFile; fileRef = 807AA01C2859E713DE846493A79D77A1 /* NSString+HBKJExten.m */; };
-		FAF22A15D2FC3605485392DAA54BF647 /* UIColor+HBKJCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D29D897CAD36510696826A76DA9D22 /* UIColor+HBKJCode.m */; };
+		E86FA495BE0587321C2D64D9660438F3 /* HBKJDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E881CC964A142A133E58B059EABF857 /* HBKJDate.m */; };
+		EA79A08D047924AF4C46874E530C0168 /* NSString+HBKJExten.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1D4847459D580FF6A1C5293F30AFF7 /* NSString+HBKJExten.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F925412A2ADAAD7141D459A2890D2CFE /* NSString+HBKJExten.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC67ACDF111FF3F3194E0EA0185A42E /* NSString+HBKJExten.m */; };
+		FAF22A15D2FC3605485392DAA54BF647 /* UIColor+HBKJCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A97412279FC5D63DF6EDEC6D32B9F305 /* UIColor+HBKJCode.m */; };
 		FD91563C064EA09F95B74208455FF1A6 /* Pods-HBKJConfig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2019F64C2809B12D4FFDA75BB7268CF /* Pods-HBKJConfig_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -51,52 +51,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DB9F8FCB41DE933B34EBB64896E2755 /* HBKJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBKJConfig.modulemap; sourceTree = "<group>"; };
-		19EA4C01B99B7CE6890DF1CF7B91902A /* HBKJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBKJConfig.xcconfig; sourceTree = "<group>"; };
-		1A436318E72F37802BC185E7B2B0C9CE /* HBKJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBKJConfig-dummy.m"; sourceTree = "<group>"; };
+		0CBF226BB30C15C7B317A86FB0A3FCB1 /* HBKJConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HBKJConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0F7447DE3C75C432BACFEEE656B9BF64 /* HBKJDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKJDate.h; sourceTree = "<group>"; };
 		1A45F57AA49EB3C987CBCA17A2DDA8A7 /* Pods-HBKJConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBKJConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1F1366F5354F003713F53D81BB058172 /* HBKJConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HBKJConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		29F410A1E033FC90BB8DB52C7234CCC7 /* HBKJConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBKJConfig-Info.plist"; sourceTree = "<group>"; };
-		2CA3B9601D53EBF78457BC903328E2F8 /* Pods_HBKJConfig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBKJConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2CF9C77D958E1562F112B3B14321D9 /* HBKJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBKJConfig-prefix.pch"; sourceTree = "<group>"; };
+		2CA3B9601D53EBF78457BC903328E2F8 /* Pods_HBKJConfig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBKJConfig_Tests.framework; path = "Pods-HBKJConfig_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1D4847459D580FF6A1C5293F30AFF7 /* NSString+HBKJExten.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HBKJExten.h"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		32E97183B0F266F15D21F403A6C75648 /* Pods-HBKJConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBKJConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3667D9A3C7B3FAFD66A5A53D44C67253 /* HBKJTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKJTextView.h; sourceTree = "<group>"; };
-		40334FED64103DDDB087DF3B0B44CD34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		4291C5F5D4F783B446CAC5C731626613 /* NSString+HBKJExten.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HBKJExten.h"; sourceTree = "<group>"; };
 		42F81EB6777A7CBEAC08166908940A00 /* Pods-HBKJConfig_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBKJConfig_Example.modulemap"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4A3FF78D9BF63CB4EB4EC149E0283FC0 /* HBKJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBKJConfig-umbrella.h"; sourceTree = "<group>"; };
-		4C7E0F891B1DA2220DD4EE214C957AF1 /* HBKJSearchbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKJSearchbar.m; sourceTree = "<group>"; };
-		544BFD022771A93ABAE80919F09F8C05 /* UIViewController+HBKJAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HBKJAlert.h"; sourceTree = "<group>"; };
+		4FC67ACDF111FF3F3194E0EA0185A42E /* NSString+HBKJExten.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HBKJExten.m"; sourceTree = "<group>"; };
 		566D38C6EE5B4D1BEA3E721BC0812EC8 /* Pods-HBKJConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBKJConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57D29D897CAD36510696826A76DA9D22 /* UIColor+HBKJCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBKJCode.m"; sourceTree = "<group>"; };
 		645E3B212DC19FC1D468C856134780B4 /* Pods-HBKJConfig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBKJConfig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6CD18743DD4C47218BA6F953FA5524CF /* HBKJTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKJTextView.m; sourceTree = "<group>"; };
+		6649614146C452CF01E4379E610C8FD5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6865C04487B6B91A6CB08D652E1D08F5 /* HBKJConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HBKJConfig.modulemap; sourceTree = "<group>"; };
+		6B39E1177F2915EE600FC199C0721FAF /* HBKJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBKJConfig.xcconfig; sourceTree = "<group>"; };
 		6EC21906B8B177BB9C352BB9D84A151D /* Pods-HBKJConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBKJConfig_Example-umbrella.h"; sourceTree = "<group>"; };
 		712BEAB80AFD4EDDC2A31910F4871E76 /* Pods-HBKJConfig_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBKJConfig_Example-Info.plist"; sourceTree = "<group>"; };
 		718623183E98FC2B329B686EFF536CE7 /* Pods-HBKJConfig_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBKJConfig_Tests-Info.plist"; sourceTree = "<group>"; };
-		807AA01C2859E713DE846493A79D77A1 /* NSString+HBKJExten.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HBKJExten.m"; sourceTree = "<group>"; };
+		78B2FF733E13099708FFA5E1ABFD7ADA /* HBKJTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKJTextView.h; sourceTree = "<group>"; };
+		79978D2F7D48D4E65C2F0C92EA198868 /* HBKJConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBKJConfig-umbrella.h"; sourceTree = "<group>"; };
+		7E881CC964A142A133E58B059EABF857 /* HBKJDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKJDate.m; sourceTree = "<group>"; };
 		8704A350B2CFCFCBA3BD06EAA32D1727 /* Pods-HBKJConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBKJConfig_Example-dummy.m"; sourceTree = "<group>"; };
-		8C15A9A704E0F52EEE937C1F6E060313 /* UIColor+HBKJCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBKJCode.h"; sourceTree = "<group>"; };
-		8E48467018B28B77FACB8D145E974E0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E9EE07D3C021319CE0A1DF0C2992C2E /* UIViewController+HBKJAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HBKJAlert.m"; sourceTree = "<group>"; };
+		984638F85F4E84CB6AC639423698E2D2 /* UIViewController+HBKJAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HBKJAlert.h"; sourceTree = "<group>"; };
+		99405CCF94AECEF732ECBA2DA07CB543 /* HBKJSearchbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKJSearchbar.h; sourceTree = "<group>"; };
 		9C80B6DB0231CAD4BB5E6B7472F0BB47 /* Pods-HBKJConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBKJConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A556F4E553E69EC8059CACB397256651 /* Pods-HBKJConfig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HBKJConfig_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AC5A4BC0557663B6FC54038FF16A111A /* HBKJDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKJDate.m; sourceTree = "<group>"; };
-		B7A3103227CEF51F13BB0E8357578CF9 /* DeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
-		B99A0587D9536E60A3EB463B3489E3D0 /* HBKJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBKJConfig-prefix.pch"; sourceTree = "<group>"; };
+		A63E2BC5BAA2C95D19ED452D338DB04F /* HBKJTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKJTextView.m; sourceTree = "<group>"; };
+		A97412279FC5D63DF6EDEC6D32B9F305 /* UIColor+HBKJCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBKJCode.m"; sourceTree = "<group>"; };
+		A9B304F953C61A3A4E693A29CAE1DFAE /* UIColor+HBKJCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBKJCode.h"; sourceTree = "<group>"; };
+		B7862449BD86D00DA1879B96583314A5 /* DeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		BDB437FA3F8D578D2C48EB86D1FA529F /* HBKJSearchbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HBKJSearchbar.m; sourceTree = "<group>"; };
 		C50AB71A532413AF4C32B73C6B1DED64 /* Pods-HBKJConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBKJConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C546B01AE5F55A6C92FD85059B86DE10 /* HBKJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HBKJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC46E8FFC67BC7EFA05798A633012D80 /* HBKJDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKJDate.h; sourceTree = "<group>"; };
+		C546B01AE5F55A6C92FD85059B86DE10 /* HBKJConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HBKJConfig.framework; path = HBKJConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77E9FFC2103EF5C5CFF27483208D0C4 /* DeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 		D5B8CB7AF1B7E469804806ED08AA6800 /* Pods-HBKJConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBKJConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D97764838ABC2C0F7B868BD15936B6E2 /* HBKJSearchbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HBKJSearchbar.h; sourceTree = "<group>"; };
-		DE23FDEAF949B8D9B642F97801139F69 /* Pods_HBKJConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBKJConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED5D18A7CC94B62069F21150485B9BE3 /* UIViewController+HBKJAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HBKJAlert.m"; sourceTree = "<group>"; };
-		EDEBDECA795B1EAE8CD96D1138E3B253 /* DeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		D5C12241059532DA81F80547A80C2BFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE23FDEAF949B8D9B642F97801139F69 /* Pods_HBKJConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HBKJConfig_Example.framework; path = "Pods-HBKJConfig_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4C9712088EC4BD4BB239143160FBF2 /* HBKJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBKJConfig-dummy.m"; sourceTree = "<group>"; };
 		F2019F64C2809B12D4FFDA75BB7268CF /* Pods-HBKJConfig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBKJConfig_Tests-dummy.m"; sourceTree = "<group>"; };
 		F578DCB986F4116709BA1909261083EB /* Pods-HBKJConfig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HBKJConfig_Tests.modulemap"; sourceTree = "<group>"; };
 		F5AD157F174B0C2814BF453E94764C67 /* Pods-HBKJConfig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBKJConfig_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FDEB97CF607A0524F5E8256578D5C694 /* Pods-HBKJConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBKJConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6E1C18D5ABBB14F6A91553A9F469AD /* HBKJConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HBKJConfig-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,69 +145,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1921EAC310314B79E1B5E37664AF5C1D /* HBKJConfig */ = {
+		341815BE977D169ED81A610F8BA21100 /* Object */ = {
 			isa = PBXGroup;
 			children = (
-				23A24AE745A5D2C974A69B8E37A21315 /* Caterogy */,
-				5A9AC7439A8127D6A7EEDBEC334680F8 /* Object */,
-				C3F5FD439AEDB0FCDA205637EEE7BF4E /* Pod */,
-				2EA6484813419526CA27C4B821E9507F /* Support Files */,
-				5C0D9FE54199B2B6EAF8271DBDC0BB1F /* Views */,
-			);
-			name = HBKJConfig;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		23A24AE745A5D2C974A69B8E37A21315 /* Caterogy */ = {
-			isa = PBXGroup;
-			children = (
-				8C15A9A704E0F52EEE937C1F6E060313 /* UIColor+HBKJCode.h */,
-				57D29D897CAD36510696826A76DA9D22 /* UIColor+HBKJCode.m */,
-				4291C5F5D4F783B446CAC5C731626613 /* NSString+HBKJExten.h */,
-				807AA01C2859E713DE846493A79D77A1 /* NSString+HBKJExten.m */,
-				544BFD022771A93ABAE80919F09F8C05 /* UIViewController+HBKJAlert.h */,
-				ED5D18A7CC94B62069F21150485B9BE3 /* UIViewController+HBKJAlert.m */,
-			);
-			name = Caterogy;
-			path = HBKJConfig/Classes/Caterogy;
-			sourceTree = "<group>";
-		};
-		2EA6484813419526CA27C4B821E9507F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0DB9F8FCB41DE933B34EBB64896E2755 /* HBKJConfig.modulemap */,
-				19EA4C01B99B7CE6890DF1CF7B91902A /* HBKJConfig.xcconfig */,
-				1A436318E72F37802BC185E7B2B0C9CE /* HBKJConfig-dummy.m */,
-				29F410A1E033FC90BB8DB52C7234CCC7 /* HBKJConfig-Info.plist */,
-				B99A0587D9536E60A3EB463B3489E3D0 /* HBKJConfig-prefix.pch */,
-				4A3FF78D9BF63CB4EB4EC149E0283FC0 /* HBKJConfig-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HBKJConfig";
-			sourceTree = "<group>";
-		};
-		5A9AC7439A8127D6A7EEDBEC334680F8 /* Object */ = {
-			isa = PBXGroup;
-			children = (
-				CC46E8FFC67BC7EFA05798A633012D80 /* HBKJDate.h */,
-				AC5A4BC0557663B6FC54038FF16A111A /* HBKJDate.m */,
-				B7A3103227CEF51F13BB0E8357578CF9 /* DeviceInfo.h */,
-				EDEBDECA795B1EAE8CD96D1138E3B253 /* DeviceInfo.m */,
+				B7862449BD86D00DA1879B96583314A5 /* DeviceInfo.h */,
+				C77E9FFC2103EF5C5CFF27483208D0C4 /* DeviceInfo.m */,
+				0F7447DE3C75C432BACFEEE656B9BF64 /* HBKJDate.h */,
+				7E881CC964A142A133E58B059EABF857 /* HBKJDate.m */,
 			);
 			name = Object;
 			path = HBKJConfig/Classes/Object;
 			sourceTree = "<group>";
 		};
-		5C0D9FE54199B2B6EAF8271DBDC0BB1F /* Views */ = {
+		3C24B3DEC9C46332851BFFE3A91FDD68 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D97764838ABC2C0F7B868BD15936B6E2 /* HBKJSearchbar.h */,
-				4C7E0F891B1DA2220DD4EE214C957AF1 /* HBKJSearchbar.m */,
-				3667D9A3C7B3FAFD66A5A53D44C67253 /* HBKJTextView.h */,
-				6CD18743DD4C47218BA6F953FA5524CF /* HBKJTextView.m */,
+				6865C04487B6B91A6CB08D652E1D08F5 /* HBKJConfig.modulemap */,
+				6B39E1177F2915EE600FC199C0721FAF /* HBKJConfig.xcconfig */,
+				DF4C9712088EC4BD4BB239143160FBF2 /* HBKJConfig-dummy.m */,
+				FF6E1C18D5ABBB14F6A91553A9F469AD /* HBKJConfig-Info.plist */,
+				1B2CF9C77D958E1562F112B3B14321D9 /* HBKJConfig-prefix.pch */,
+				79978D2F7D48D4E65C2F0C92EA198868 /* HBKJConfig-umbrella.h */,
 			);
-			name = Views;
-			path = HBKJConfig/Classes/Views;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HBKJConfig";
+			sourceTree = "<group>";
+		};
+		500FAD3EE5E31CDA09309E1B5B515E96 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C83E08BA78E1A5AD42D576A9E2214A13 /* HBKJConfig */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6FEDA37DB7555F8B081CFEB3605A7DA5 /* Caterogy */ = {
+			isa = PBXGroup;
+			children = (
+				2E1D4847459D580FF6A1C5293F30AFF7 /* NSString+HBKJExten.h */,
+				4FC67ACDF111FF3F3194E0EA0185A42E /* NSString+HBKJExten.m */,
+				A9B304F953C61A3A4E693A29CAE1DFAE /* UIColor+HBKJCode.h */,
+				A97412279FC5D63DF6EDEC6D32B9F305 /* UIColor+HBKJCode.m */,
+				984638F85F4E84CB6AC639423698E2D2 /* UIViewController+HBKJAlert.h */,
+				8E9EE07D3C021319CE0A1DF0C2992C2E /* UIViewController+HBKJAlert.m */,
+			);
+			name = Caterogy;
+			path = HBKJConfig/Classes/Caterogy;
 			sourceTree = "<group>";
 		};
 		751D4CA3EC69E075A77A7BC9D5BF0E7D /* Pods-HBKJConfig_Tests */ = {
@@ -253,25 +236,50 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C3F5FD439AEDB0FCDA205637EEE7BF4E /* Pod */ = {
+		C83E08BA78E1A5AD42D576A9E2214A13 /* HBKJConfig */ = {
 			isa = PBXGroup;
 			children = (
-				1F1366F5354F003713F53D81BB058172 /* HBKJConfig.podspec */,
-				40334FED64103DDDB087DF3B0B44CD34 /* LICENSE */,
-				8E48467018B28B77FACB8D145E974E0C /* README.md */,
+				6FEDA37DB7555F8B081CFEB3605A7DA5 /* Caterogy */,
+				341815BE977D169ED81A610F8BA21100 /* Object */,
+				D91B03A924B7D9101E79B6B54ACD3943 /* Pod */,
+				3C24B3DEC9C46332851BFFE3A91FDD68 /* Support Files */,
+				C87BEC10B294F188C612AD8E41BD6AF1 /* Views */,
 			);
-			name = Pod;
+			name = HBKJConfig;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C87BEC10B294F188C612AD8E41BD6AF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99405CCF94AECEF732ECBA2DA07CB543 /* HBKJSearchbar.h */,
+				BDB437FA3F8D578D2C48EB86D1FA529F /* HBKJSearchbar.m */,
+				78B2FF733E13099708FFA5E1ABFD7ADA /* HBKJTextView.h */,
+				A63E2BC5BAA2C95D19ED452D338DB04F /* HBKJTextView.m */,
+			);
+			name = Views;
+			path = HBKJConfig/Classes/Views;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EFE12F1379598FE99393B01F2EBA7BD1 /* Development Pods */,
+				500FAD3EE5E31CDA09309E1B5B515E96 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				BC4CAC32343398248A0EE1647856D7E7 /* Products */,
 				185BA5C12D719FBCAF4BDDABC766A2B5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D91B03A924B7D9101E79B6B54ACD3943 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0CBF226BB30C15C7B317A86FB0A3FCB1 /* HBKJConfig.podspec */,
+				6649614146C452CF01E4379E610C8FD5 /* LICENSE */,
+				D5C12241059532DA81F80547A80C2BFA /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -281,14 +289,6 @@
 				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EFE12F1379598FE99393B01F2EBA7BD1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1921EAC310314B79E1B5E37664AF5C1D /* HBKJConfig */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,7 +608,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -680,7 +681,7 @@
 		};
 		88A2C261B651490ED0EF1525AF8A919F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19EA4C01B99B7CE6890DF1CF7B91902A /* HBKJConfig.xcconfig */;
+			baseConfigurationReference = 6B39E1177F2915EE600FC199C0721FAF /* HBKJConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -711,7 +712,7 @@
 		};
 		9CD3EBDD4ABB3AEA19A3FFD24763E224 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19EA4C01B99B7CE6890DF1CF7B91902A /* HBKJConfig.xcconfig */;
+			baseConfigurationReference = 6B39E1177F2915EE600FC199C0721FAF /* HBKJConfig.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

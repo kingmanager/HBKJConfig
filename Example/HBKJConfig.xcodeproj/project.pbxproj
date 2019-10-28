@@ -531,7 +531,7 @@
 				GCC_PREFIX_HEADER = "HBKJConfig/HBKJConfig-Prefix.pch";
 				INFOPLIST_FILE = "HBKJConfig/HBKJConfig-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MARKETING_VERSION = 0.1.4;
+				MARKETING_VERSION = 0.1.6;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.HBKJConfig;
 				PRODUCT_NAME = HBKJConfig;
@@ -552,7 +552,7 @@
 				GCC_PREFIX_HEADER = "HBKJConfig/HBKJConfig-Prefix.pch";
 				INFOPLIST_FILE = "HBKJConfig/HBKJConfig-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MARKETING_VERSION = 0.1.4;
+				MARKETING_VERSION = 0.1.6;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.best.HBKJConfig;
 				PRODUCT_NAME = HBKJConfig;

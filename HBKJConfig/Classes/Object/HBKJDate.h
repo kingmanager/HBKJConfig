@@ -43,12 +43,15 @@ typedef enum{
 -(NSString *)stringDistanceTodayByYear:(NSInteger)year Month:(NSInteger)month Day:(NSInteger)day;
 
 //7.判断日期是否为当天
--(BOOL)judgeIsTodayWithDate:(NSDate *)date;
+-(BOOL)judgeIsTodayByDate:(NSDate *)date;
 
-//8.获取时间差
+//8:根据日期获取星期
+-(NSString *)judgeWeekDayByDate:(NSDate *)date;
+
+//9.获取时间差
 -(NSString *)getDistanceSecondsFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType;
 
-//9.判断时间大小 0:相等 1:frontTime>backTime 2:frontTime<backTime
+//10.判断时间大小 0:相等 1:frontTime>backTime 2:frontTime<backTime
 -(NSInteger)compareFrontTime:(NSString *)frontTime BackTime:(NSString *)backTime HBKJDatePickerType:(HBKJDatePickerType)datePickerType;
 
 @end

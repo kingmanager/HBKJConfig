@@ -1,5 +1,5 @@
 PODS:
-  - HBKJConfig (0.1.5)
+  - HBKJConfig (0.1.6)
 
 DEPENDENCIES:
   - HBKJConfig (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HBKJConfig: d2d3c4e3e120741f7bef12f0a2293d00060dc1be
+  HBKJConfig: 82cfa942b8b1afddadf0880396ebfe6e54a4350f
 
 PODFILE CHECKSUM: 7b619efd61b62fc24b829764a59c017041ab415b
 

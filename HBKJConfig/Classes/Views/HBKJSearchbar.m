@@ -12,7 +12,11 @@
 -(instancetype)initWithPlaceholder:(NSString *)placeholder{
     self=[super init];
     if (self) {
-        self.placeholder=@"请输入关键字";
+        if (placeholder.length==0 || placeholder==nil) {
+            self.placeholder=@"请输入关键字";
+        }else{
+            self.placeholder=placeholder;
+        }
         self.searchBarStyle=UISearchBarIconSearch;
         UITextField *searchField;
         if (@available(iOS 13.0, *)) {

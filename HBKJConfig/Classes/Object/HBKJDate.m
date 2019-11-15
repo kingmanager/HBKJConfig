@@ -146,7 +146,7 @@
 -(NSString *)judgeWeekDayByDate:(NSDate *)date{
     NSArray *weekDays=[NSArray arrayWithObjects: [NSNull null], @"星期日", @"星期一", @"星期二", @"星期三", @"星期四", @"星期五", @"星期六", nil];
     NSCalendar *calendar=[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    [calendar setTimeZone:[NSTimeZone timeZoneWithName:@"Asia/Shanghai"]];
+    //[calendar setTimeZone:[NSTimeZone timeZoneWithName:@"Asia/Shanghai"]];
     NSCalendarUnit calendarUnit=NSCalendarUnitWeekday;
     NSDateComponents *theComponents=[calendar components:calendarUnit fromDate:date];
     return [weekDays objectAtIndex:theComponents.weekday];

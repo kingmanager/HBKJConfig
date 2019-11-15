@@ -14,13 +14,13 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DeviceInfo : NSObject
 
 //===版本号
-+(NSString *)systemArchiveVersion;
++(NSString *)archiveVersion;
 
 //===操作系统版本号
 +(NSString *)systemVersion;
 
 //===手机型号
-+(NSString *)systemPhoneModel;
++(NSString *)phoneModel;
 
 @end
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBKJConfig'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '自己平时开发使用的配置文件.'
 
 # This description is used to generate tags and improve search results.

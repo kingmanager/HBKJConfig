@@ -13,7 +13,7 @@
 @implementation DeviceInfo
 
 //===版本号
-+(NSString *)systemArchiveVersion{
++(NSString *)archiveVersion{
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
@@ -23,7 +23,7 @@
 }
 
 //===手机型号
-+(NSString *)systemPhoneModel{
++(NSString *)phoneModel{
     struct utsname systemInfo;
     uname(&systemInfo);
     NSString *platform=[NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];

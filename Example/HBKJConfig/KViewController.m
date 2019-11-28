@@ -9,7 +9,7 @@
 #import "KViewController.h"
 
 #import <UIColor+HBKJCode.h>
-#import <HBKJSearchbar.h>
+#import <HBKJSearchBar.h>
 #import <HBKJTextView.h>
 #import <HBKJDate.h>
 
@@ -33,7 +33,7 @@
 }
 
 -(void)testViews{
-    HBKJSearchbar *mySearchBar=[[HBKJSearchbar alloc] initWithPlaceholder:@"请输入关键字"];
+    HBKJSearchBar *mySearchBar=[[HBKJSearchBar alloc] init];
     mySearchBar.frame=CGRectMake(50, 100, self.view.bounds.size.width-100, 50);
     [self.view addSubview:mySearchBar];
     

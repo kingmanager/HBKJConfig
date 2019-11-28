@@ -55,7 +55,6 @@
             _placeholderLabel.tag=999;
             [self addSubview:_placeholderLabel];
         }
-        
         _placeholderLabel.text=self.placeholder;
         [_placeholderLabel sizeToFit];
         [self sendSubviewToBack:_placeholderLabel];

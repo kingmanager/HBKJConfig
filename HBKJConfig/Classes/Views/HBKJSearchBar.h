@@ -9,9 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HBKJSearchbar : UISearchBar
-
--(instancetype)initWithPlaceholder:(NSString *)placeholder;
+@interface HBKJSearchBar : UISearchBar
 
 @end
 
